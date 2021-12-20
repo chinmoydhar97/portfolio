@@ -1,0 +1,363 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: calibri;
+	font-weight: 400;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.heading {
+	font-family: 'Monoton', cursive;
+	font-size: 45px;
+	font-weight: 400;
+	color: #f13c20;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*Common CSS Complete*/
+
+/*Menu Area Start*/
+
+.menu {
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.menu_bar {
+	padding: 30px;
+} 
+
+.menu_item {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.menu_item a {
+	font-size: 20px;
+	color: white;
+	margin-right: 50px;
+	text-transform: uppercase;
+}
+
+.menu_item a:hover {
+	color: red;
+}
+
+/*Menu Area END*/
+
+
+/*Hero Area Start*/
+
+.hero {
+	height: 575px;
+	background-image: url(images/chinmoy.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+}
+
+.hero_para {
+	width: 50%;
+	font-size: 50px;
+	margin-left: 50px;
+	padding-top: 250px;
+	color: black;
+	text-align: center;
+}
+
+/*Hero Area END*/
+
+/*About Area Start*/
+
+.about,
+.service {
+	margin-top: 5px;
+}
+
+.abt_area {
+	display: flex;
+}
+
+.abt_img {
+	width: 50%;
+}
+
+.pic {
+	width: 100%;
+	height: 500px;
+}
+
+.abt_des {
+	width: 50%;
+	padding-top: 30px;
+	margin-left: 25px;
+}
+
+.abt_heading {
+	text-align: center;
+	font-size: 35px;
+	color: lightcoral;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.abt_para {
+	padding-bottom: 25px;
+	text-align: justify;
+	font-size: 17px;
+	padding-right: 15px;
+}
+
+/*About Area End*/
+
+
+/*Service Area Start*/
+
+.service {
+	background-color: lightgrey;
+	padding-bottom: 60px;
+}
+
+.service_heading,
+.work_head,
+.blog_head,
+.contact_head {
+	text-align: center;
+	font-size: 35px;
+	color: lightcoral;
+	text-transform: uppercase;
+	padding: 30px;
+}
+
+.upper_part,
+.lower_part {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.service_list {
+	width: 33%;
+	padding-left: 20px;
+}
+
+.up_head,
+.lower_head {
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.up_des,
+.lower_des {
+	text-align: justify;
+	padding-bottom: 90px;
+}
+
+.btn {
+	border: 1px solid black;
+	border-radius: 25px;
+	padding: 15px 30px;
+	margin-left: 35%;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: black;
+	box-shadow: 3px 3px gray;
+}
+
+.btn:hover {
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+}
+
+/*Service Area End*/
+
+
+/*Work Area Start*/
+
+.work_up,
+.work_low {
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.sample_1, .sample_2,
+.sample_3, .sample_4,
+.sample_5, .sample_6,
+.sample_7, .sample_8 {
+	margin-right: 15px;
+	border: 2px solid red;
+}
+
+/*Work Area End*/
+
+
+/*BLog Area Start*/
+
+.blog {
+	background-color: lightgrey;
+	margin-top: 50px;
+}
+
+.blog_list {
+	display: flex;
+}
+
+.html, .css, .js, .php {
+	width: 23%;
+	border: 1px solid red;
+	padding: 15px 15px 50px 15px;
+	margin: 25px;
+}
+
+.list_heading {
+	font-size: 35px;
+	text-align: center;
+}
+
+.list_image {
+	width: 250px;
+	height: 180px;
+	padding: 10px 0;
+	margin-top: 30px;
+}
+
+.list_header {
+	text-align: center;
+	padding: 10px 0;
+	color: red;
+}
+
+.list_para {
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.list_btn {
+	margin: 0 70px;
+	border: 1px solid black;
+	padding: 10px 20px;
+	border-radius: 50px;
+}
+
+.list_btn:hover {
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+}
+
+.list_btn a {
+	margin-bottom: 50px;
+}
+
+/*BLog Area End*/
+
+
+/*Contact Area Start*/
+
+.contact_part {
+	display: flex;
+}
+
+.signup {
+	width: 50%;
+	margin-top: 30px;
+}
+
+input {
+	width: 50%;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+
+input:focus {
+	border: 2px solid red;
+}
+
+textarea {
+	height: 150px;
+	padding: 12px 20px;
+	border-radius: 5px;
+	resize: none;
+}
+
+button {
+	padding: 15px 30px;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+}
+
+button:hover {
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+}
+
+.map {
+	width: 50%;
+	padding-right: 15px;
+	margin-top: 30px;
+}
+
+/*Contact Area End*/
+
+
+/*Copyright Area Start*/
+
+.copy {
+	margin-top: 50px;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.copyright {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	padding: 40px 0;
+}
+
+/*Copyright Area End*/
